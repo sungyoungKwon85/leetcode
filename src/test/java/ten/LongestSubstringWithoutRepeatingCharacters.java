@@ -1,3 +1,5 @@
+package ten;
+
 import java.util.HashMap;
 
 import org.junit.Test;
