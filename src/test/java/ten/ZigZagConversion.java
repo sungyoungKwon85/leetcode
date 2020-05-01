@@ -62,6 +62,10 @@ public class ZigZagConversion {
     }
 
     public String convert(String s, int numRows) {
+        return "";
+    }
+
+    public String convert_fail(String s, int numRows) {
         if (numRows == 1) return s;
         if (s.length() == 1) return s;
         if (s.length() < numRows) return s;
