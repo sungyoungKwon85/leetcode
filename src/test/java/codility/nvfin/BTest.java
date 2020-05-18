@@ -1,4 +1,4 @@
-package codility;
+package codility.nvfin;
 
 import org.assertj.core.api.Assertions;
 import org.junit.Test;

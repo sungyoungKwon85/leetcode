@@ -1,4 +1,4 @@
-package codility;
+package codility.nvfin;
 
 import java.util.Arrays;
 
