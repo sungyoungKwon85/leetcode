@@ -1,4 +1,4 @@
-package codility;
+package codility.aidev;
 
 import java.util.Arrays;
 import java.util.Collections;
