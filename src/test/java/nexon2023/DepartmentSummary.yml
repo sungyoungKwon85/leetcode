@@ -1,0 +1,36 @@
+직원 테이블
+  ID
+  NAME
+  SALARY
+  DEPT_ID
+부서 테이블 
+  ID
+  NAME
+  LOCATION
+
+각 부서별로 직원수가 얼머나 되는지 뽑기 
+직원수 오름순차 
+부서 알파벳순 (내림차순?)
+
+출력은.. 모든 부서 나와야 한다 
+DEPT_NAME COUNT
+
+select 
+from 
+  department d 
+  join employee e on d.id = e.dept_id 
+
+
+
+select 
+  d.name,
+  count(e.id)
+from 
+  employee e 
+  inner join department d on e.dept_id = d.id
+group by 
+  e.dept_id
+order by 
+  count(e.id) desc, 
+  d.name
+;
